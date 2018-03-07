@@ -31,7 +31,7 @@ Check their [GitHub - Usage for App Developers](https://github.com/Cutehacks/qpm
 - https://storage.googleapis.com/www.qpm.io/download/latest/windows_386/qpm.exe
 
 ## Usage
-The ContentDevice can be used like any other QIODevice. Please note that it needs an Android Context in order to function properly. By default, QtAndroid::androidContext() is used. In addition to that, the device is a sequential device, which means you can only access it as "Stream", not as Random access file.
+The ContentDevice can be used like any other QIODevice. Please note that it needs an Android Context in order to function properly. By default, `QtAndroid::androidContext()` is used. In addition to that, the device is a sequential device, which means you can only access it as "Stream", not as Random access file.
 
 Example:
 ```cpp
