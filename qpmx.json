@@ -1,0 +1,28 @@
+{
+    "dependencies": [
+    ],
+    "license": {
+        "file": "LICENSE",
+        "name": "BSD_3_CLAUSE"
+    },
+    "prcFile": "android_content_device.prc",
+    "priFile": "android_content_device.pri",
+    "priIncludes": [
+    ],
+    "publishers": {
+        "qpm": {
+            "author": {
+                "email": "skycoder42.de@gmx.de",
+                "name": "Skycoder"
+            },
+            "description": "A QIODevice implementation to be able to open \"content://\" urls on android",
+            "name": "de.skycoder42.android-contentdevice",
+            "repository": {
+                "type": "GITHUB",
+                "url": "https://github.com/Skycoder42/AndroidContentDevice.git"
+            },
+            "webpage": "https://github.com/Skycoder42/AndroidContentDevice"
+        }
+    },
+    "source": false
+}
