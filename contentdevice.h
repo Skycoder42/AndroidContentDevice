@@ -7,7 +7,7 @@
 #include <QtAndroidExtras/QAndroidJniObject>
 #include <QtAndroidExtras/QAndroidJniEnvironment>
 
-class ContentDevice : public QIODevice
+class Q_ANDROID_CONTENT_DEVICE_EXPORT ContentDevice : public QIODevice
 {
 	Q_OBJECT
 
